@@ -72,10 +72,7 @@ body{
 .cp_tab {
   margin: 1em auto;
 }
-.cp_tab h2{
-  margin-right: 10px auto;
-  margin-left: 10px auto;
-}
+
 .cp_tab > input[type='radio'] {
   margin: 0;
   padding: 0;
@@ -112,13 +109,14 @@ body{
 }
 .cp_tab > input:checked + label {
   margin-bottom: -1px;
-  border-color: #cccccc;
+  border-color: #1f1;
   border-bottom: 1px solid #ffffff;/*背景色と同じ*/
   border-radius: 6px 6px 0 0;
+  background-color: #fff;
 }
 .cp_tab .cp_tabpanel {
   padding: 0.5em 1em;
-  border-top: 1px solid #cccccc;
+  border-top: 1px solid #01aa01;
 }
 @media (max-width: 480px) {
   .cp_tab {
