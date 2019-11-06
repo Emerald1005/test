@@ -110,9 +110,9 @@ body{
 .cp_tab > input:checked + label {
   margin-bottom: -1px;
   border-color: #1f1;
-  border-bottom: 1px solid #ffffff;/*背景色と同じ*/
+  border-bottom: 1px solid #1a1;/*背景色と同じ*/
   border-radius: 6px 6px 0 0;
-  background-color: #fff;
+  background-color: #afa;
 }
 .cp_tab .cp_tabpanel {
   padding: 0.5em 1em;
