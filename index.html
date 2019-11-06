@@ -7,21 +7,40 @@
   </head>
   <body>
     <div class="header">
-
       <div class="header-logo">Emerald Sin</div>
 
       <div class="header-list">
-        <ul>
-          <li>お問い合わせ</li>
-          <li>自己紹介</li>
-          <li>作品</li>
-        </ul>
+
+        <div class="cp_tab">
+          <input type="radio" name="cp_tab" id="tab1_1" aria-controls="first_tab01" checked>
+            <label for="tab1_1">TOP</label>
+          <input type="radio" name="cp_tab" id="tab1_2" aria-controls="second_tab01">
+            <label for="tab1_2">作品</label>
+          <input type="radio" name="cp_tab" id="tab1_3" aria-controls="third_tab01">
+            <label for="tab1_3">その他</label>
+            <div class="cp_tabpanels">
+          <div id="first_tab01" class="cp_tabpanel">
+            <h2>First Tab</h2>
+            <p>First Tab text</p>
+          </div>
+          <div id="second_tab01" class="cp_tabpanel">
+            <h2>Second Tab</h2>
+            <p>2</p>
+          </div>
+          <div id="third_tab01" class="cp_tabpanel">
+            <h2>Third Tab</h2>
+            <p>3</p>
+            <a href="https://twitter.com/emerald_529">Twitter</a>
+          </div>
+        </div>
+      </div>
+
       </div>
 
     </div>
 
     <div class="main">
-      <a href="https://twitter.com/emerald_529">Twitter</a>
+      
     </div>
 
     <div class="footer">
@@ -34,5 +53,6 @@
       </div>
       <div class="footer-other">@2019</div>
     </div>
+
   </body>
 </html>
